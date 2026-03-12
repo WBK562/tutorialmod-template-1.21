@@ -32,7 +32,7 @@ public class ModBlocks {
                     AbstractBlock.Settings.create().strength(3f).requiresTool().sounds(BlockSoundGroup.STONE)));
 
     public static final Block PINK_GARNET_DEEPSLATE_ORE = registerBlock("pink_garnet_deepslate_ore",
-            new ExperienceDroppingBlock(UniformIntProvider.create(2,5),
+            new ExperienceDroppingBlock(UniformIntProvider.create(3,6),
                     AbstractBlock.Settings.create().strength(3f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
 
     public static void registerBlockItem(String name, Block block){
