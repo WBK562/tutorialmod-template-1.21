@@ -10,9 +10,7 @@ import net.wbk.tutorialmod.TutorialMod;
 import net.wbk.tutorialmod.item.custom.ChiselItem;
 import net.wbk.tutorialmod.item.custom.LightningHammerItem;
 
-import javax.swing.text.Style;
-
-public class ModItem {
+public class ModItems {
     public static final Item PINK_GARNET = registerItem("pink_garnet",new Item(new Item.Settings()));
     public static final Item RAW_PINK_GARNET = registerItem("raw_pink_garnet",new Item(new Item.Settings()));
 

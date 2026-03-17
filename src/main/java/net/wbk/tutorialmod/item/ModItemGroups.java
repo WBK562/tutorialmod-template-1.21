@@ -13,11 +13,11 @@ import net.wbk.tutorialmod.block.ModBlocks;
 public class ModItemGroups {
     public static final ItemGroup PINK_GARNET_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(TutorialMod.MOD_ID,"pink_garnet_items"),
-            FabricItemGroup.builder().icon(() -> new ItemStack(ModItem.PINK_GARNET))
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.PINK_GARNET))
                     .displayName(Text.translatable("itemgroup.tutorialmod.pink_garnet_items"))
                     .entries((displayContext, entries) -> {
-                        entries.add(ModItem.PINK_GARNET);
-                        entries.add(ModItem.RAW_PINK_GARNET);
+                        entries.add(ModItems.PINK_GARNET);
+                        entries.add(ModItems.RAW_PINK_GARNET);
                     }).build());
 
     public static final ItemGroup PINK_GARNET_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,
@@ -30,6 +30,8 @@ public class ModItemGroups {
 
                         entries.add(ModBlocks.PINK_GARNET_ORE);
                         entries.add(ModBlocks.PINK_GARNET_DEEPSLATE_ORE);
+
+                        entries.add(ModBlocks.MAGIC_BLOCK);
                     }).build());
 
     public static void registerItemGroups(){
