@@ -2,6 +2,7 @@ package net.wbk.tutorialmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.wbk.tutorialmod.block.ModBlocks;
 import net.wbk.tutorialmod.item.ModItems;
 import net.wbk.tutorialmod.item.ModItemGroups;
@@ -17,5 +18,7 @@ public class TutorialMod implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		FuelRegistry.INSTANCE.add(ModItems.STARLIGHT_ASHES, 1800);
 	}
 }
