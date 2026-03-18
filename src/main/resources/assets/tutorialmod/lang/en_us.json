@@ -15,5 +15,10 @@
   "block.tutorialmod.pink_garnet_deepslate_ore": "Pink Garnet Deepslate Ore",
 
   "itemgroup.tutorialmod.pink_garnet_items": "Pink Garnet Items",
-  "itemgroup.tutorialmod.pink_garnet_blocks": "Pink Garnet Blocks"
+  "itemgroup.tutorialmod.pink_garnet_blocks": "Pink Garnet Blocks",
+
+  "tooltip.tutorialmod.magic_block.tooltip": "A magical block that emits light and has a unique texture. It can be used for decorative purposes or as a light source in your builds.",
+  "tooltip.tutorialmod.chisel.tooltip.shift_down": "A versatile tool that can be used to shape and carve blocks. It allows you to create intricate designs and patterns on your builds.",
+  "tooltip.tutorialmod.chisel.tooltip": "A tool that can be used to shape and carve blocks. Hold Shift for more information.",
+  "tooltip.tutorialmod.cauliflower.tooltip": "Very cool!"
 }
